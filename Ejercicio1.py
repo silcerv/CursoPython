@@ -6,28 +6,28 @@ Created on Tue Nov 12 10:17:45 2019
 """
 
 
-class OperadorMates(object):
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-  
-    def suma  (x, y):
-        return ("la suma es", x + y )
-       
-    def division ( x, y):
-        return ("la division es ", x / y)
-        
-    def resta (x, y):
-        return ("la resta es", x - y)
-       
-    def multiplicacion ( x, y):
-       return ("la multiplicacion es", x * y)
-   
-x = 10
-y = 10
-    
+#class OperadorMates(object):
+#    def __init__(self, x, y):
+#        self.x = x
+#        self.y = y
+#  
+#    def suma  (x, y):
+#        return ("la suma es", x + y )
+#       
+#    def division ( x, y):
+#        return ("la division es ", x / y)
+#        
+#    def resta (x, y):
+#        return ("la resta es", x - y)
+#       
+#    def multiplicacion ( x, y):
+#       return ("la multiplicacion es", x * y)
+#   
+#x = 10
+#y = 10
+#    
 import argparse
-from Ejercicios.Ejercicio1 import OperadorMates ()
+from app.Operador import OperadorMates
 
 
 parser = argparse.ArgumentParser()
